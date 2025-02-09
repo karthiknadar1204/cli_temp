@@ -1,0 +1,24 @@
+{
+  "name": "create-kn-starter-kit",
+  "version": "1.0.0",
+  "description": "NextJS Drizzle Neon Starter Kit",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-kn-starter-kit": "./index.js"
+  },
+  "keywords": ["cli", "nextjs", "drizzle", "neon", "starter-kit"],
+  "author": "Karthik Nadar",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.4.1",
+    "ora": "^8.2.0",
+    "simple-git": "^3.27.0"
+  }
+}
